@@ -1,0 +1,22 @@
+html
+    <p> :paragraph  段落
+    meta charset  字符集
+    h1 ： heading1 一级标题
+    无序列表（Unordered List）中项目的顺序并不重要，就像购物列表。用一个 <ul> 元素包围。
+    有序列表（Ordered List）中项目的顺序很重要，就像烹调指南。用一个 <ol> 元素包围。
+    列表的每个项目用一个列表项目（List Item）元素 <li> 包围。
+        <ul>
+          <li>technologists</li>
+          <li>thinkers</li>
+          <li>builders</li>
+        </ul>
+    <a> :     anchor 锚
+    <a href="链接目标">链接文本</a>
+    <a href="https://www.mozilla.org/zh-CN/about/manifesto/">Mozilla Manifesto</a>
+
+CSS
+元素选择器（也称作标签或类型选择器） 	所有指定 (该) 类型的 HTML 元素 	p 选择 <p>
+ID 选择器 	具有特定 ID 的元素（单一 HTML 页面中，每个 ID 只对应一个元素，一个元素只对应一个 ID） 	#my-id 选择 <p id="my-id"> 或 <a id="my-id">
+类选择器 	具有特定类的元素（单一页面中，一个类可以有多个实例） 	.my-class 选择 <p class="my-class"> 和 <a class="my-class">
+属性选择器 	拥有特定属性的元素 	img[src] 选择 <img src="myimage.png"> 而不是 <img>
+伪（Pseudo）类选择器 	特定状态下的特定元素（比如鼠标指针悬停） 	a:hover 仅在鼠标指针悬停在链接上时选择 <a>。
